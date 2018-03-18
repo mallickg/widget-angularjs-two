@@ -193,9 +193,6 @@ module.exports = function makeWebpackConfig() {
                 inject: 'body'
             })
 
-
-
-
             // Reference: https://github.com/webpack/extract-text-webpack-plugin
             // Extract css files
             // Disabled when in test mode or not in build mode
